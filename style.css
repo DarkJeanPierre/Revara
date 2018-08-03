@@ -1,0 +1,62 @@
+
+html {
+    background: #FFFFF;
+	background-size: 1100px;
+    background-repeat: no-repeat;
+}
+
+body {
+color:white;
+background-color:white;
+background-image:url(Images/Fond.png);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	font-style: none;
+    text-decoration: none;
+	font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #358;
+}
+button {
+  float: right;
+  padding: 6px 15px;
+  margin-top: 8px;
+  margin-right: 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #ccc;
+}
+
+
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-size: 17px;
+}
